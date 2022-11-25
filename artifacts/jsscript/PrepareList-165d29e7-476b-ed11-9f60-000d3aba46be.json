@@ -1,0 +1,43 @@
+{
+	"id": "165d29e7-476b-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-11-23T16:00:14.456Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"globalScripts": [
+		{
+			"id": "78C3C464-466B-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob - List",
+			"contextname": "List"
+		}
+	],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "PrepareList",
+	"ver": "22.11.25.1417",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"const azureblob = globals.List;",
+		"",
+		"const blobData = {",
+		"    \"account\": \"\", //please add here your Azure blob account name",
+		"    \"container\": \"\", //please add here your Azure blob container name",
+		"    \"accountKey\": \"\", //please add here your Azure blob access account key ",
+		"    \"filter\": \"\", // It's possible to apply a filter to search for a specific folders or files",
+		"    \"metadata\": true,",
+		"}",
+		"",
+		"",
+		"const images = await azureblob.listBlobs(blobData);",
+		"",
+		"result.data = { \"data\": images, \"User\": req.user.username };",
+		"",
+		"complete();"
+	],
+	"useAsGlobalScript": false,
+	"isTypescript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"jsscriptGroup": "910f112a-466b-ed11-9f60-000d3aba46be",
+	"package": "a83ed26f-446b-ed11-9f60-000d3aba46be"
+}
