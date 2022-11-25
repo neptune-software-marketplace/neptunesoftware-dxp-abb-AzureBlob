@@ -1,0 +1,30 @@
+complete({
+    deleteBlob: deleteBlob
+});
+
+async function deleteBlob(params) {
+
+    const blob = modules.azurestorageblob;
+
+    try {
+
+        if (params.account === undefined || params.account === null || params.account === "") throw "Account is missing!";
+        if (params.accountKey === undefined || params.accountKey === null || params.accountKey === "") throw "Access Key is missing!";
+        if (params.container === undefined || params.container === null || params.container === "") throw "Container is missing!";
+        if (params.blobName === undefined || params.blobName === null || params.blobName === "") throw "File name is missing!";
+
+        const sharedKeyCredential = new blob.StorageSharedKeyCredential(params.account, params.accountKey);
+        const blobServiceClient = new blob.BlobServiceClient(`https://${params.account}.blob.core.windows.net`, sharedKeyCredential);
+        const containerClient = blobServiceClient.getContainerClient(params.container);
+        const blockBlobClient = containerClient.getBlockBlobClient(params.blobName);
+
+        const result =  await blockBlobClient.delete();
+
+        return result;
+
+    } catch (e) {
+        log.error("Azure Blob Upload: " + e);
+        return false;
+    }
+
+}

@@ -1,0 +1,144 @@
+jQuery.sap.require("sap.ui.layout.cssgrid.GridBoxLayout");
+
+var AzureBlob = {
+    currentFolder: "",
+    currentUser: "",
+    init: function () {
+
+        tabMediaLib.setCustomLayout(new sap.ui.layout.cssgrid.GridBoxLayout({ boxWidth: "150px" }));
+        oTreeMediaLib.getBinding().mParameters = { arrayNames: ['subFolder'] };
+
+    },
+    processReturnData: function (data) {
+        modeltabMediaLib.setData({});
+        modeltabMediaLib.refresh();
+        AzureBlob.currentUser = data.User;
+
+        let tree = [];
+        $.each(data.data, function (i, file) {
+            let content = file.fileName.split('/')
+            let folder = {};
+            let lastfolder = {};
+            let path = "";
+            let edit = true;
+
+            $.each(content, function (k, name) {
+
+                path = path + name + "/";
+                if (k === content.length - 1) {
+                    file.filePath = file.fileName;
+                    file.fileName = name;
+                    file.edit = edit;
+                    folder.files.push(file)
+
+                } else {
+                    folder = AzureBlob.getObject(tree, path);
+
+                    if (folder === undefined) {
+                        folder = {
+                            folder: name,
+                            path: path,
+                            selected: false,
+                            subFolder: [],
+                            files: []
+                        }
+
+                        if (k === 0) {
+                            tree.push(folder)
+                        } else {
+                            lastfolder.subFolder.push(folder);
+                        }
+                        lastfolder = folder;
+                    } else {
+                        lastfolder = folder;
+                    }
+                }
+            })
+        })
+        modeloTreeMediaLib.setData(tree);
+
+    },
+    addNewFolder: function (folderName) {
+        let old = oTreeMediaLib.getSelectedItem();
+
+        if (old) {
+            AzureBlob.currentFolder.subFolder.push({
+                folder: folderName,
+                path: AzureBlob.currentFolder.path + folderName + "/",
+                selected: true,
+                subFolder: [],
+                files: []
+            })
+        } else {
+            AzureBlob.currentFolder.folder =  folderName;
+            AzureBlob.currentFolder.path =  folderName + "/";
+            modeloTreeMediaLib.oData.push(AzureBlob.currentFolder)
+        }
+
+        modeloTreeMediaLib.refresh();
+        oTreeMediaLib.expand(oTreeMediaLib.indexOfItem(old))
+
+        oTreeMediaLib.fireSelectionChange();
+    },
+
+    mediaUploadFunction: function (oEvent) {
+        $.each(oEvent.target.files, function (i, file) {
+            try {
+                var fileReader = new FileReader();
+
+                fileReader.onload = function (event) {
+
+                    data = {
+                        "name": file.name,
+                        "type": file.type,
+                        "folder": AzureBlob.currentFolder.path,
+                        "base64": event.target.result
+                    }
+
+                    document.getElementById("mediaFileUploader").value = '';
+
+                    apiUpload({ data: data });
+                };
+
+                fileReader.readAsDataURL(file);
+            } catch (e) {
+                try { } catch (e) { }
+            }
+        });
+    },
+
+
+    getObject: function (theObject, path) {
+
+        var result = undefined;
+        if (theObject instanceof Array) {
+            for (var i = 0; i < theObject.length; i++) {
+                result = AzureBlob.getObject(theObject[i], path);
+                if (result) {
+                    break;
+                }
+            }
+        }
+        else {
+            for (var prop in theObject) {
+                if (prop == 'path') {
+                    if (theObject[prop] == path) {
+                        return theObject;
+                    }
+                }
+                if ((theObject[prop] instanceof Object || theObject[prop] instanceof Array) && prop !== 'files') {
+                    result = AzureBlob.getObject(theObject[prop], path);
+                    if (result) {
+                        break;
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
+
+}
+
+mediaUploadFunction = AzureBlob.mediaUploadFunction;
+AzureBlob.init();

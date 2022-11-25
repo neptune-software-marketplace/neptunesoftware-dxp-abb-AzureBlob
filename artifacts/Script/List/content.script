@@ -1,0 +1,41 @@
+complete({
+    listBlobs: listBlobs,
+});
+
+async function listBlobs(params) {
+    const blob = modules.azurestorageblob;
+    const url = `https://${params.account}.blob.core.windows.net/${params.container}/`
+
+    try {
+
+        if (params.account === undefined || params.account === null || params.account === "") throw "Account is missing!";
+        if (params.accountKey === undefined || params.accountKey === null || params.accountKey === "") throw "Access Key is missing!";
+        if (params.container === undefined || params.container === null || params.container === "") throw "Container is missing!";
+
+
+        const sharedKeyCredential = new blob.StorageSharedKeyCredential(params.account, params.accountKey);
+        const blobServiceClient = new blob.BlobServiceClient(`https://${params.account}.blob.core.windows.net`, sharedKeyCredential);
+        const containerClient = blobServiceClient.getContainerClient(params.container);
+
+        let entity = await containerClient.listBlobsFlat({ prefix: params.filter, includeMetadata: params.metadata });
+
+        let output = [];
+
+        for await (const blobInfo of entity) {
+
+            output.push({
+                "fileName": blobInfo.name,
+                "url": url + blobInfo.name,
+                "metadata": blobInfo.metadata,
+                "DateTime": blobInfo.properties.lastModified,
+                "contentLength": blobInfo.properties.contentLength
+            });
+        }
+
+        return output;
+    } catch (e) {
+        log.error("Azure Blob Upload: " + e);
+        return "Error";
+    }
+
+}

@@ -1,0 +1,6 @@
+sap.m.MessageToast.show(xhr.responseJSON.msg, {
+    duration: 5000,                  // default
+    my: "center center",
+    at: "center center",
+
+});

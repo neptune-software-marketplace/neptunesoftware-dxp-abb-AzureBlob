@@ -1,0 +1,3 @@
+popFolderName.close();
+
+AzureBlob.addNewFolder(oInputFolderName.getValue());

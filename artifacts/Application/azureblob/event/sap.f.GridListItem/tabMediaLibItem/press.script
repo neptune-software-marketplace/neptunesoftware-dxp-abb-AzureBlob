@@ -1,0 +1,12 @@
+var context = oEvent.oSource.getBindingContext();
+var data = context.getObject();
+
+
+navigator.clipboard.writeText(data.url);
+
+sap.m.MessageToast.show("The URL was copied!", {
+    duration: 3000,                  // default
+    my: "center center",
+    at: "center center",
+
+});

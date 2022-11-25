@@ -1,0 +1,26 @@
+{
+	"id": "165d29e7-476b-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-11-23T16:00:14.456Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"globalScripts": [
+		{
+			"id": "78C3C464-466B-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob - List",
+			"contextname": "List"
+		}
+	],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "PrepareList",
+	"ver": "22.11.25.1720",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "910f112a-466b-ed11-9f60-000d3aba46be",
+	"package": "a83ed26f-446b-ed11-9f60-000d3aba46be"
+}

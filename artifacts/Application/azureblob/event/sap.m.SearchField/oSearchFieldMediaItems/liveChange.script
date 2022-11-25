@@ -1,0 +1,3 @@
+var binding = tabMediaLib.getBinding("items");
+var filter = new sap.ui.model.Filter("fileName", "Contains", this.getValue());
+binding.filter([filter]);

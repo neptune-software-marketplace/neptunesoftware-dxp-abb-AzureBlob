@@ -1,0 +1,9 @@
+
+sap.m.MessageToast.show(xhr.responseJSON.msg, {
+    my: "center center",
+    at: "center center",
+});
+
+
+var data = modeltabMediaLib.oData.splice(modeltabMediaLib.oData.findIndex(element => element.url === xhr.responseJSON.file), 1)
+modeltabMediaLib.refresh();

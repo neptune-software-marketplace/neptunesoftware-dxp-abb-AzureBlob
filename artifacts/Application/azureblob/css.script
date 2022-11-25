@@ -1,0 +1,14 @@
+.imgFeedback {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.nepNavigationTileMedia .sapMTitle {
+     width: 100%;
+    text-align: center;
+}
+
+.nepNavigationTileMedia .sapMPanelContent {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+}

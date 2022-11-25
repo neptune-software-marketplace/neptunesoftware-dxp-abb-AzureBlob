@@ -1,0 +1,28 @@
+const data = req.body;
+const azureblob = globals.Delete;
+
+const blobData = {
+    "account": "", //please add here your Azure blob account name
+    "container": "", //please add here your Azure blob container name
+    "accountKey": "", //please add here your Azure blob access account key 
+    "blobName": data.filePath
+}
+
+try {
+
+  var a =  await  azureblob.deleteBlob(blobData);
+    result.data = {
+        msg: "File deleted!!",
+        file: data.url
+    }
+
+} catch (e) {
+    log.error(e)
+    esult.statusCode = 500;
+    result.data = {
+        msg: e
+    }
+
+}
+
+complete();

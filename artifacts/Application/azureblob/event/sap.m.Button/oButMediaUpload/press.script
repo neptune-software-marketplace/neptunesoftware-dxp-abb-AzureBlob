@@ -1,0 +1,10 @@
+const selectedItem = oTreeMediaLib.getSelectedItem();
+
+if (selectedItem) {
+
+    const context = selectedItem.getBindingContext();
+    const data = context.getObject();
+    AzureBlob.currentFolder = data;
+    $("#mediaFileUploader").click();
+}
+

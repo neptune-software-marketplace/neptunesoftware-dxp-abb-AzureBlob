@@ -1,0 +1,11 @@
+const selectedItem = oTreeMediaLib.getSelectedItem();
+
+if (selectedItem) {
+
+    const context = selectedItem.getBindingContext();
+    const data = context.getObject();
+    modeltabMediaLib.setData(data.files);
+    modeltabMediaLib.refresh();
+    oButMediaUpload.setEnabled(true);
+
+}

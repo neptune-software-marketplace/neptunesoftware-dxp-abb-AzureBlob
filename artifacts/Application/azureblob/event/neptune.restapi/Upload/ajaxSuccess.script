@@ -1,0 +1,10 @@
+sap.m.MessageToast.show(xhr.responseJSON.msg, {
+    duration: 5000,                  // default
+    my: "center center",
+    at: "center center",
+
+});
+
+AzureBlob.currentFolder.files.push(xhr.responseJSON.file)
+modeloTreeMediaLib.refresh();
+modeltabMediaLib.refresh();

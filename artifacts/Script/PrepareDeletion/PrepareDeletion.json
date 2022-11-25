@@ -1,0 +1,26 @@
+{
+	"id": "d0c0b8f4-476b-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-11-23T16:00:32.090Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"globalScripts": [
+		{
+			"id": "7CC3C464-466B-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob - Delete",
+			"contextname": "Delete"
+		}
+	],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "PrepareDeletion",
+	"ver": "22.11.25.1417",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "910f112a-466b-ed11-9f60-000d3aba46be",
+	"package": "a83ed26f-446b-ed11-9f60-000d3aba46be"
+}

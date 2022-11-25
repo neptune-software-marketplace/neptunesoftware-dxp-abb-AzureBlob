@@ -1,0 +1,27 @@
+{
+	"id": "7cc3c464-466b-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-11-23T15:49:28.460Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "F536BC1F-B72D-ED11-BD6E-E42AAC618FDD",
+			"name": "@azure/storage-blob",
+			"contextname": "azurestorageblob",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/@azure/storage-blob"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "Delete",
+	"ver": "22.11.23.1557",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": true,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "910f112a-466b-ed11-9f60-000d3aba46be",
+	"package": "a83ed26f-446b-ed11-9f60-000d3aba46be"
+}

@@ -1,0 +1,31 @@
+{
+	"id": "9892e8d9-476b-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-11-23T15:59:56.376Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"globalScripts": [
+		{
+			"id": "7F7B8550-466B-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob - Upload",
+			"contextname": "Upload"
+		},
+		{
+			"id": "42D141DC-4E6B-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob - AllowedFileTypes",
+			"contextname": "AllowedFileTypes"
+		}
+	],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "PrepareUpload",
+	"ver": "22.11.25.1417",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "910f112a-466b-ed11-9f60-000d3aba46be",
+	"package": "a83ed26f-446b-ed11-9f60-000d3aba46be"
+}

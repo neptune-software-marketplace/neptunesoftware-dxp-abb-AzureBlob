@@ -1,0 +1,3 @@
+const binding = tabMediaLib.getBinding("items");
+const filter = new sap.ui.model.Filter("metadata/user", "EQ", AzureBlob.currentUser );
+binding.filter([filter]);

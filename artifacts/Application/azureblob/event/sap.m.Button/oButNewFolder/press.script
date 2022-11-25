@@ -1,0 +1,19 @@
+const selectedItem = oTreeMediaLib.getSelectedItem();
+
+if (selectedItem) {
+
+    const context = selectedItem.getBindingContext();
+    const data = context.getObject();
+    AzureBlob.currentFolder = data;
+    popFolderName.openBy(oTreeMediaLib);
+
+} else {
+    AzureBlob.currentFolder = {
+        folder: "",
+        path: "",
+        selected: true,
+        subFolder: [],
+        files: []
+    };
+    popFolderName.openBy(oTreeMediaLib);
+}

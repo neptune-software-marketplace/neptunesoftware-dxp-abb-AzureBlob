@@ -1,0 +1,16 @@
+const azureblob = globals.List;
+
+const blobData = {
+    "account": "", //please add here your Azure blob account name
+    "container": "", //please add here your Azure blob container name
+    "accountKey": "", //please add here your Azure blob access account key 
+    "filter": "", // It's possible to apply a filter to search for a specific folders or files
+    "metadata": true,
+}
+
+
+const images = await azureblob.listBlobs(blobData);
+
+result.data = { "data": images, "User": req.user.username };
+
+complete();
