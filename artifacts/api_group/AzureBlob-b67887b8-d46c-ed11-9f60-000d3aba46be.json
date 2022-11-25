@@ -1,0 +1,9 @@
+{
+	"id": "b67887b8-d46c-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-11-25T15:20:41.333Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"name": "AzureBlob",
+	"description": null,
+	"ver": "22.11.25.1520",
+	"package": "a83ed26f-446b-ed11-9f60-000d3aba46be"
+}

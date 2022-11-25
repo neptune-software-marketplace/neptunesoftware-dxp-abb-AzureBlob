@@ -198,7 +198,7 @@
 	"documentation": [],
 	"name": "AzureBlob",
 	"endpoint": "/api/serverscript/azureblob",
-	"ver": "22.11.25.147",
+	"ver": "22.11.25.1520",
 	"version": null,
 	"description": null,
 	"mediaType": null,
@@ -216,7 +216,7 @@
 	"tlsAllowUntrusted": false,
 	"useOwnProcess": false,
 	"package": "a83ed26f-446b-ed11-9f60-000d3aba46be",
-	"apiGroup": null,
+	"apiGroup": "b67887b8-d46c-ed11-9f60-000d3aba46be",
 	"apiFormat": 0,
 	"roles": []
 }

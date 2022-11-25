@@ -51,7 +51,7 @@
 			"id": "B174DA30-536B-ED11-9F60-000D3ABA46BE",
 			"name": "AzureBlob",
 			"description": null,
-			"apiGroup": null
+			"apiGroup": "B67887B8-D46C-ED11-9F60-000D3ABA46BE"
 		}
 	],
 	"odataSource": [],
@@ -106,7 +106,13 @@
 	"rulesengine": [],
 	"reports": [],
 	"api_authentication": [],
-	"api_group": [],
+	"api_group": [
+		{
+			"id": "B67887B8-D46C-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob",
+			"description": null
+		}
+	],
 	"tile": [],
 	"category": [],
 	"launchpad": [],
