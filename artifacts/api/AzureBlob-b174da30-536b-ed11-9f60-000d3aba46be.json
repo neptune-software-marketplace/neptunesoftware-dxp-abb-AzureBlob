@@ -1,0 +1,222 @@
+{
+	"id": "b174da30-536b-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-11-23T17:20:57.453Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "195F3FFF-1EB3-4B15-8E82-4D26206ADD6B",
+			"method": "GET",
+			"path": "/List",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "165D29E7-476B-ED11-9F60-000D3ABA46BE",
+			"enableExample": false,
+			"tags": "List all image in Azure"
+		},
+		{
+			"id": "6C973E30-ABDE-414A-F492-E05639AEFFDA",
+			"method": "DELETE",
+			"path": "/Delete",
+			"description": "",
+			"parameters": [
+				{
+					"name": "FilePath",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				},
+				{
+					"status": "500",
+					"description": "Error",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "D0C0B8F4-476B-ED11-9F60-000D3ABA46BE",
+			"tags": "Delete image from Azure"
+		},
+		{
+			"id": "51529214-06F1-4AD0-9DB8-95330F906621",
+			"method": "POST",
+			"path": "/Upload",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				},
+				{
+					"status": "500",
+					"description": "Error",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "9892E8D9-476B-ED11-9F60-000D3ABA46BE",
+			"tags": "Upload image to Azure",
+			"content": [
+				{
+					"name": "data",
+					"objectType": "object"
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "67fb91d0-37da-4857-b8d1-2a07cc099856",
+			"name": "data",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "80c214a7-2d19-46a9-d37c-9263252df7e4",
+					"name": "data",
+					"objectType": "object",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": true,
+					"enableValueHelp": false,
+					"canAddSubNode": true,
+					"enabled": true,
+					"showNameField": true,
+					"children": [
+						{
+							"id": "da458a19-2f0a-408d-8838-4bd8c54e161e",
+							"parent": "80c214a7-2d19-46a9-d37c-9263252df7e4",
+							"name": "name",
+							"objectType": "string",
+							"description": "",
+							"required": false,
+							"value": "",
+							"minLength": "",
+							"maxLength": "",
+							"default": "",
+							"example": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						},
+						{
+							"id": "f5b2046b-90bd-4be0-a1fa-e8f7e53b38a9",
+							"parent": "80c214a7-2d19-46a9-d37c-9263252df7e4",
+							"name": "image",
+							"objectType": "string",
+							"description": "",
+							"required": false,
+							"value": "",
+							"minLength": "",
+							"maxLength": "",
+							"default": "",
+							"example": "",
+							"isParent": false,
+							"enableValueHelp": false,
+							"canAddSubNode": false,
+							"enabled": true,
+							"showNameField": true,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "da458a19-2f0a-408d-8838-4bd8c54e161e",
+					"parent": "80c214a7-2d19-46a9-d37c-9263252df7e4",
+					"name": "name",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f5b2046b-90bd-4be0-a1fa-e8f7e53b38a9",
+					"parent": "80c214a7-2d19-46a9-d37c-9263252df7e4",
+					"name": "image",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "AzureBlob",
+	"endpoint": "/api/serverscript/azureblob",
+	"ver": "22.11.25.147",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "a83ed26f-446b-ed11-9f60-000d3aba46be",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

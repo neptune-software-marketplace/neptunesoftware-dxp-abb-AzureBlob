@@ -1,0 +1,1846 @@
+{
+	"id": "a76a1954-036c-ed11-9f60-000d3aba46be",
+	"createdAt": "2022-11-24T14:23:02.723Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "1c58d0f1-16f2-498f-ae4f-4131923975e9",
+			"fieldName": "oApp",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "1ca25e36-7ed4-47c3-d47a-5ea41dcd83b9",
+					"fieldName": "oPageMediaLib",
+					"fieldParent": "1c58d0f1-16f2-498f-ae4f-4131923975e9",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "enableScrolling",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "c3f2034c-026d-4c61-e102-fe9209d37207",
+							"fieldName": "oPageMediaLibHeader",
+							"fieldParent": "1ca25e36-7ed4-47c3-d47a-5ea41dcd83b9",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassPadding",
+									"grouping": "Properties",
+									"value": "sapUiNoContentPadding",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "backgroundDesign",
+									"grouping": "Properties",
+									"value": "Solid",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "788d767b-00b2-4d21-e37d-516d39b1df56",
+									"fieldName": "oPageMediaLibBox",
+									"fieldParent": "c3f2034c-026d-4c61-e102-fe9209d37207",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginBeginEnd",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "100px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "de7c3e99-89cf-41fe-e6c6-18ef61a1dfdc",
+											"fieldName": "oPageMediaLibIcon",
+											"fieldParent": "788d767b-00b2-4d21-e37d-516d39b1df56",
+											"fieldType": "sap.f.Avatar",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-regular/images",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "75b2f79e-6471-4309-86e4-c2a225472aac",
+											"fieldName": "oPageMediaLibVBox",
+											"fieldParent": "788d767b-00b2-4d21-e37d-516d39b1df56",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginBegin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "4b000923-9f2d-4c5b-c9dc-38f31d6a2161",
+													"fieldName": "oPageMediaLibHBoxTitle",
+													"fieldParent": "75b2f79e-6471-4309-86e4-c2a225472aac",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "a0852f68-b266-4e2d-bfe5-f9aec92f389f",
+															"fieldName": "oPageMediaLibTitle",
+															"fieldParent": "4b000923-9f2d-4c5b-c9dc-38f31d6a2161",
+															"fieldType": "sap.m.Title",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "titleStyle",
+																	"grouping": "Properties",
+																	"value": "H3",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Media Library ",
+																	"script": "",
+																	"translation": [
+																		{
+																			"language": "DE",
+																			"value": "Seitentitel"
+																		}
+																	]
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiTinyMarginEnd",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "wrapping",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "4e3a621c-73fe-4011-eccb-8ca3bb45b31c",
+													"fieldName": "oPageMediaLibSubTitle",
+													"fieldParent": "75b2f79e-6471-4309-86e4-c2a225472aac",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "wrapping",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Select an image ",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "4eef73b2-f6e8-4e70-f32c-ab298eae8b9e",
+							"fieldName": "panMediaLibGeneral",
+							"fieldParent": "1ca25e36-7ed4-47c3-d47a-5ea41dcd83b9",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassPadding",
+									"grouping": "Properties",
+									"value": "sapUiNoContentPadding",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "backgroundDesign",
+									"grouping": "Properties",
+									"value": "Transparent",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "d41eb502-1d7e-43cb-8547-2b751d5b8338",
+									"fieldName": "splitDefinitionMediaLib",
+									"fieldParent": "4eef73b2-f6e8-4e70-f32c-ab298eae8b9e",
+									"fieldType": "sap.ui.layout.Splitter",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiTinyMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "calc(100% - 110px)",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "589cb061-2e5e-4300-fad7-a8e56fb3a048",
+											"fieldName": "PanMediaLibList",
+											"fieldParent": "d41eb502-1d7e-43cb-8547-2b751d5b8338",
+											"fieldType": "sap.m.Panel",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassPadding",
+													"grouping": "Properties",
+													"value": "sapUiNoContentPadding",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "height",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "b2d7852c-618a-4a37-fa9f-1378bf664047",
+													"fieldName": "panListDefinitionMediaLib",
+													"fieldParent": "589cb061-2e5e-4300-fad7-a8e56fb3a048",
+													"fieldType": "sap.m.Page",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "showHeader",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "showFooter",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enableScrolling",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundDesign",
+															"grouping": "Properties",
+															"value": "List",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "7528542a-dff4-4715-cd05-6b98d7aef01a",
+															"fieldName": "oToolbar",
+															"fieldParent": "b2d7852c-618a-4a37-fa9f-1378bf664047",
+															"fieldType": "sap.m.Toolbar",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "styleClass",
+																	"grouping": "Properties",
+																	"value": "nabMediaLibToolbar",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "enableCompactMode",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "position",
+																	"grouping": "Parent",
+																	"value": "HeaderToolbar",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "fd337f7b-3119-4925-8a72-fcafd93f32f2",
+																	"fieldName": "oButNewFolder",
+																	"fieldParent": "7528542a-dff4-4715-cd05-6b98d7aef01a",
+																	"fieldType": "sap.m.Button",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "tooltip",
+																			"grouping": "Properties",
+																			"value": "Add a new folder",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "icon",
+																			"grouping": "Properties",
+																			"value": "sap-icon://add-folder",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "enabled",
+																			"grouping": "Properties",
+																			"value": "true",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "press",
+																			"grouping": "Events",
+																			"value": "Anonymous Function",
+																			"script": [
+																				"==OBJECT STRING==",
+																				"const selectedItem = oTreeMediaLib.getSelectedItem();",
+																				"",
+																				"if (selectedItem) {",
+																				"",
+																				"    const context = selectedItem.getBindingContext();",
+																				"    const data = context.getObject();",
+																				"    AzureBlob.currentFolder = data;",
+																				"    popFolderName.openBy(oTreeMediaLib);",
+																				"",
+																				"} else {",
+																				"    AzureBlob.currentFolder = {",
+																				"        folder: \"\",",
+																				"        path: \"\",",
+																				"        selected: true,",
+																				"        subFolder: [],",
+																				"        files: []",
+																				"    };",
+																				"    popFolderName.openBy(oTreeMediaLib);",
+																				"}"
+																			],
+																			"language": "javascript",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "aae61f7f-f4fd-4193-ef71-9840dc67372b",
+																	"fieldName": "oButRefreshMediaLib",
+																	"fieldParent": "7528542a-dff4-4715-cd05-6b98d7aef01a",
+																	"fieldType": "sap.m.Button",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "tooltip",
+																			"grouping": "Properties",
+																			"value": "Refresh ",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "styleClassMargin",
+																			"grouping": "Properties",
+																			"value": "sapUiSmallMarginBegin",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "icon",
+																			"grouping": "Properties",
+																			"value": "sap-icon://refresh",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "press",
+																			"grouping": "Events",
+																			"value": "apiGet();",
+																			"script": "apiGet();",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "893eba9e-b600-4d60-8867-5a061523c175",
+															"fieldName": "oScrollContainerMediaLib",
+															"fieldParent": "b2d7852c-618a-4a37-fa9f-1378bf664047",
+															"fieldType": "sap.m.ScrollContainer",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "vertical",
+																	"grouping": "Properties",
+																	"value": "true",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "horizontal",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "calc(100% - 50px)",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "1812afe7-0400-472a-dd5b-38b9ea11ad46",
+																	"fieldName": "oTreeMediaLib",
+																	"fieldParent": "893eba9e-b600-4d60-8867-5a061523c175",
+																	"fieldType": "sap.m.Tree",
+																	"script": "",
+																	"bindingValue": "Generic Array",
+																	"bindingType": "h",
+																	"bindingSource": "P9",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "nabMediaLib",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "mode",
+																			"grouping": "Properties",
+																			"value": "SingleSelectMaster",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "selectionChange",
+																			"grouping": "Events",
+																			"value": "Anonymous Function",
+																			"script": [
+																				"==OBJECT STRING==",
+																				"const selectedItem = oTreeMediaLib.getSelectedItem();",
+																				"",
+																				"if (selectedItem) {",
+																				"",
+																				"    const context = selectedItem.getBindingContext();",
+																				"    const data = context.getObject();",
+																				"    modeltabMediaLib.setData(data.files);",
+																				"    modeltabMediaLib.refresh();",
+																				"    oButMediaUpload.setEnabled(true);",
+																				"",
+																				"}"
+																			],
+																			"language": "javascript",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "f971ea89-b8e6-4bb8-ff7b-44affbfebd33",
+																			"fieldName": "oTreeItem",
+																			"fieldParent": "1812afe7-0400-472a-dd5b-38b9ea11ad46",
+																			"fieldType": "sap.m.StandardTreeItem",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "type",
+																					"grouping": "Properties",
+																					"value": "Active",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "title",
+																					"grouping": "Properties",
+																					"value": "{folder}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "selected",
+																					"grouping": "Properties",
+																					"value": "{selected}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "icon",
+																					"grouping": "Properties",
+																					"value": "{= ${selected} ? 'sap-icon://fa-regular/folder-open' : 'sap-icon://fa-regular/folder' }",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "d2a35b47-5c10-4ce0-b0e6-52be36becf78",
+											"fieldName": "PanShowMediaLib",
+											"fieldParent": "d41eb502-1d7e-43cb-8547-2b751d5b8338",
+											"fieldType": "sap.m.Panel",
+											"script": "",
+											"bindingValue": "Generic Object",
+											"bindingType": "u",
+											"bindingSource": "P9",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "calc( 100% - 15px)",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassPadding",
+													"grouping": "Properties",
+													"value": "sapUiNoContentPadding",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "height",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "enableCompactMode",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "2bedee31-03a3-47da-b523-a742019199b8",
+													"fieldName": "oToolbar1",
+													"fieldParent": "d2a35b47-5c10-4ce0-b0e6-52be36becf78",
+													"fieldType": "sap.m.Toolbar",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClass",
+															"grouping": "Properties",
+															"value": "nabMediaLibToolbar",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "position",
+															"grouping": "Parent",
+															"value": "HeaderToolbar",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "29891825-c104-446f-dda6-e0cab14907f1",
+															"fieldName": "oSegmentedButton",
+															"fieldParent": "2bedee31-03a3-47da-b523-a742019199b8",
+															"fieldType": "sap.m.SegmentedButton",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "selectedKey",
+																	"grouping": "Properties",
+																	"value": "All",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "de358639-20ce-4764-f9b0-df288acf581c",
+																	"fieldName": "oSegButMediaLibAll",
+																	"fieldParent": "29891825-c104-446f-dda6-e0cab14907f1",
+																	"fieldType": "sap.m.SegmentedButtonItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "All",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "key",
+																			"grouping": "Properties",
+																			"value": "All",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "icon",
+																			"grouping": "Properties",
+																			"value": "sap-icon://globe",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "press",
+																			"grouping": "Events",
+																			"value": "Anonymous Function",
+																			"script": [
+																				"==OBJECT STRING==",
+																				"",
+																				"const binding = tabMediaLib.getBinding(\"items\");",
+																				"",
+																				"binding.filter([]);"
+																			],
+																			"language": "javascript",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "ce309706-f1a6-45ad-dfca-b9008c77783a",
+																	"fieldName": "oSegButMediaLibMine",
+																	"fieldParent": "29891825-c104-446f-dda6-e0cab14907f1",
+																	"fieldType": "sap.m.SegmentedButtonItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Mine",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "key",
+																			"grouping": "Properties",
+																			"value": "Mine",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "icon",
+																			"grouping": "Properties",
+																			"value": "sap-icon://person-placeholder",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "press",
+																			"grouping": "Events",
+																			"value": "Anonymous Function",
+																			"script": [
+																				"==OBJECT STRING==",
+																				"const binding = tabMediaLib.getBinding(\"items\");",
+																				"const filter = new sap.ui.model.Filter(\"metadata/user\", \"EQ\", AzureBlob.currentUser );",
+																				"binding.filter([filter]);"
+																			],
+																			"language": "javascript",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "636ff72e-18b4-43b6-c906-1756e544f17d",
+															"fieldName": "oToolbarSpacer",
+															"fieldParent": "2bedee31-03a3-47da-b523-a742019199b8",
+															"fieldType": "sap.m.ToolbarSpacer",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														},
+														{
+															"fieldNo": "d4860b6f-83b6-41aa-faca-9af3e8ec37c0",
+															"fieldName": "oSearchFieldMediaItems",
+															"fieldParent": "2bedee31-03a3-47da-b523-a742019199b8",
+															"fieldType": "sap.m.SearchField",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "liveChange",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": [
+																		"==OBJECT STRING==",
+																		"var binding = tabMediaLib.getBinding(\"items\");",
+																		"var filter = new sap.ui.model.Filter(\"fileName\", \"Contains\", this.getValue());",
+																		"binding.filter([filter]);"
+																	],
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "10eaa5a6-0e03-4259-ce88-521169ae756c",
+															"fieldName": "oToolbarSpacer1",
+															"fieldParent": "2bedee31-03a3-47da-b523-a742019199b8",
+															"fieldType": "sap.m.ToolbarSpacer",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														},
+														{
+															"fieldNo": "c6c87505-2ce7-4273-ad28-df51e37f62c0",
+															"fieldName": "oButMediaUpload",
+															"fieldParent": "2bedee31-03a3-47da-b523-a742019199b8",
+															"fieldType": "sap.m.Button",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Import",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiLargeMarginBegin",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://upload",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "enabled",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": [
+																		"==OBJECT STRING==",
+																		"const selectedItem = oTreeMediaLib.getSelectedItem();",
+																		"",
+																		"if (selectedItem) {",
+																		"",
+																		"    const context = selectedItem.getBindingContext();",
+																		"    const data = context.getObject();",
+																		"    AzureBlob.currentFolder = data;",
+																		"    $(\"#mediaFileUploader\").click();",
+																		"}",
+																		"",
+																		""
+																	],
+																	"language": "javascript",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "49c702af-25c0-4598-9397-ddc94d8fe141",
+													"fieldName": "tabMediaLib",
+													"fieldParent": "d2a35b47-5c10-4ce0-b0e6-52be36becf78",
+													"fieldType": "sap.f.GridList",
+													"script": "",
+													"bindingValue": "Generic Array",
+													"bindingType": "h",
+													"bindingSource": "P9",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "busyIndicatorDelay",
+															"grouping": "Properties",
+															"value": "10",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "noDataText",
+															"grouping": "Properties",
+															"value": "No Image on this folder!!",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "showNoData",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassPadding",
+															"grouping": "Properties",
+															"value": "sapUiResponsiveContentPadding",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "4b7810cf-c32b-449d-a601-4953a96df70b",
+															"fieldName": "tabMediaLibItem",
+															"fieldParent": "49c702af-25c0-4598-9397-ddc94d8fe141",
+															"fieldType": "sap.f.GridListItem",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Active",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": [
+																		"==OBJECT STRING==",
+																		"var context = oEvent.oSource.getBindingContext();\r",
+																		"var data = context.getObject();\r",
+																		"\r",
+																		"\r",
+																		"navigator.clipboard.writeText(data.url);\r",
+																		"\r",
+																		"sap.m.MessageToast.show(\"The URL was copied!\", {\r",
+																		"    duration: 3000,                  // default\r",
+																		"    my: \"center center\",\r",
+																		"    at: \"center center\",\r",
+																		"\r",
+																		"});"
+																	],
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "1ae887be-7960-4474-a610-bc9d0b0950b4",
+																	"fieldName": "tabMediaLibPanel",
+																	"fieldParent": "4b7810cf-c32b-449d-a601-4953a96df70b",
+																	"fieldType": "sap.m.Panel",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "styleClass",
+																			"grouping": "Properties",
+																			"value": "nepNavigationTileMedia",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "height",
+																			"grouping": "Properties",
+																			"value": "100%",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "backgroundDesign",
+																			"grouping": "Properties",
+																			"value": "Transparent",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": [
+																		{
+																			"fieldNo": "160b7cb3-665e-4c60-9d30-1f56df61a6d3",
+																			"fieldName": "tabMediaLibVBox",
+																			"fieldParent": "1ae887be-7960-4474-a610-bc9d0b0950b4",
+																			"fieldType": "sap.m.VBox",
+																			"script": "",
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "width",
+																					"grouping": "Properties",
+																					"value": "130px",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "justifyContent",
+																					"grouping": "Properties",
+																					"value": "End",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "height",
+																					"grouping": "Properties",
+																					"value": "190px",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": [
+																				{
+																					"fieldNo": "3db7d122-a565-4829-890a-ee71a243fa91",
+																					"fieldName": "tabMediaLibVBoxImage",
+																					"fieldParent": "160b7cb3-665e-4c60-9d30-1f56df61a6d3",
+																					"fieldType": "sap.m.VBox",
+																					"script": "",
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "width",
+																							"grouping": "Properties",
+																							"value": "100%",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "justifyContent",
+																							"grouping": "Properties",
+																							"value": "Center",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "height",
+																							"grouping": "Properties",
+																							"value": "100%",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "alignItems",
+																							"grouping": "Properties",
+																							"value": "Center",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": [
+																						{
+																							"fieldNo": "fc7b60c2-91c1-4fe3-e0f2-006f14ab3210",
+																							"fieldName": "tabMediaLibImage",
+																							"fieldParent": "3db7d122-a565-4829-890a-ee71a243fa91",
+																							"fieldType": "sap.m.Image",
+																							"script": "",
+																							"request": [],
+																							"response": [],
+																							"attributes": [
+																								{
+																									"attribute": "styleClass",
+																									"grouping": "Properties",
+																									"value": "imgFeedback",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "src",
+																									"grouping": "Properties",
+																									"value": "{url}",
+																									"script": "",
+																									"translation": []
+																								}
+																							],
+																							"data": []
+																						}
+																					]
+																				},
+																				{
+																					"fieldNo": "6be2d115-ba61-4171-c46f-71c5d02ccf82",
+																					"fieldName": "tabMediaLibFileName",
+																					"fieldParent": "160b7cb3-665e-4c60-9d30-1f56df61a6d3",
+																					"fieldType": "sap.m.Title",
+																					"script": "",
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "width",
+																							"grouping": "Properties",
+																							"value": "100%",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "titleStyle",
+																							"grouping": "Properties",
+																							"value": "H6",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "{fileName}",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClassMargin",
+																							"grouping": "Properties",
+																							"value": "sapUiTinyMarginTop",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClass",
+																							"grouping": "Properties",
+																							"value": "nepNavigationTitle",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "wrapping",
+																							"grouping": "Properties",
+																							"value": "true",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
+																				{
+																					"fieldNo": "5b639f7a-de05-4268-fe14-41ca2c6f747b",
+																					"fieldName": "oButMediaLibDelete",
+																					"fieldParent": "160b7cb3-665e-4c60-9d30-1f56df61a6d3",
+																					"fieldType": "sap.m.Button",
+																					"script": "",
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "width",
+																							"grouping": "Properties",
+																							"value": "30%",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "type",
+																							"grouping": "Properties",
+																							"value": "Reject",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "tooltip",
+																							"grouping": "Properties",
+																							"value": "Delete",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "styleClassMargin",
+																							"grouping": "Properties",
+																							"value": "sapUiTinyMarginTop",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "icon",
+																							"grouping": "Properties",
+																							"value": "sap-icon://delete",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "press",
+																							"grouping": "Events",
+																							"value": "Anonymous Function",
+																							"script": [
+																								"==OBJECT STRING==",
+																								"var context = oEvent.oSource.getBindingContext();",
+																								"var data = context.getObject();",
+																								"",
+																								"apiDelete({",
+																								"    data: data",
+																								"});"
+																							],
+																							"language": "javascript",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "65ab05ff-8117-4d45-b8fd-bb183d8e07d0",
+											"fieldName": "layoutDefMediaLibLeft",
+											"fieldParent": "d41eb502-1d7e-43cb-8547-2b751d5b8338",
+											"fieldType": "sap.ui.layout.SplitterLayoutData",
+											"script": "",
+											"refObject": "PanMediaLibList",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "size",
+													"grouping": "Properties",
+													"value": "350px",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "b8cdd222-74ca-466c-f843-77d472beafc7",
+					"fieldName": "oHTMLObject",
+					"fieldParent": "1c58d0f1-16f2-498f-ae4f-4131923975e9",
+					"fieldType": "sap.ui.core.HTML",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "55987ec5-6ebf-4912-c75b-2930b01f0af8",
+							"fieldName": "oHTML",
+							"fieldParent": "b8cdd222-74ca-466c-f843-77d472beafc7",
+							"fieldType": "neptune.Html",
+							"script": "<input name='mediaFileUploader' accept='image/*' id='mediaFileUploader' type='file' onchange='mediaUploadFunction(event)' style='display:none;' value='' />    ",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "d9f707a5-ca9c-4804-dce4-dd8248adeded",
+					"fieldName": "popFolderName",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.ResponsivePopover",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Folder Name",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "placement",
+							"grouping": "Properties",
+							"value": "Top",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "beforeOpen",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": [
+								"==OBJECT STRING==",
+								"oInputFolderName.setValue(\"\");",
+								"oButNewFolderOk.setEnabled(false);"
+							],
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "9e2a8e7c-c021-44bd-fe39-75498a808aa1",
+							"fieldName": "oInputFolderName",
+							"fieldParent": "d9f707a5-ca9c-4804-dce4-dd8248adeded",
+							"fieldType": "sap.m.Input",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "liveChange",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": [
+										"==OBJECT STRING==",
+										"",
+										"var newValue = this.getValue();",
+										"",
+										"if (!/^[a-zA-Z0-9_ ]*$/g.test(newValue)) {",
+										"    newValue = newValue.substring(0, newValue.length - 1);",
+										"    sap.m.MessageToast.show(\"Special characters not allowed\");",
+										"}",
+										"",
+										"this.setValue(newValue);",
+										"",
+										"",
+										"if (this.getValue() === \"\") {",
+										"    oButNewFolderOk.setEnabled(false);",
+										"}",
+										"else{",
+										"    oButNewFolderOk.setEnabled(true);",
+										"}"
+									],
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "3140fddd-231c-4ef8-b721-a7f588a87d22",
+							"fieldName": "oToolbar2",
+							"fieldParent": "d9f707a5-ca9c-4804-dce4-dd8248adeded",
+							"fieldType": "sap.m.Toolbar",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "InfoToolbar",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "69bbbcdf-b4db-40cb-ab09-07810ebd5bcc",
+									"fieldName": "oToolbarSpacer2",
+									"fieldParent": "3140fddd-231c-4ef8-b721-a7f588a87d22",
+									"fieldType": "sap.m.ToolbarSpacer",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "60px",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "9a486ded-aa7a-4ab8-b072-360c479bd86c",
+									"fieldName": "oButNewFolderOk",
+									"fieldParent": "3140fddd-231c-4ef8-b721-a7f588a87d22",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Accept",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://accept",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "enabled",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": [
+												"==OBJECT STRING==",
+												"popFolderName.close();",
+												"",
+												"AzureBlob.addNewFolder(oInputFolderName.getValue());",
+												""
+											],
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "f0719f0e-5b6f-46da-c9c2-65a103747efc",
+									"fieldName": "oButNewFolderClose",
+									"fieldParent": "3140fddd-231c-4ef8-b721-a7f588a87d22",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Reject",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://sys-cancel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "popFolderName.close();",
+											"script": "popFolderName.close();",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "aebe35ee-3f83-49f5-ae22-d87a4a67d262",
+					"fieldName": "AzureBlobFunction",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": [
+						"==OBJECT STRING==",
+						"jQuery.sap.require(\"sap.ui.layout.cssgrid.GridBoxLayout\");",
+						"",
+						"var AzureBlob = {",
+						"    currentFolder: \"\",",
+						"    currentUser: \"\",",
+						"    init: function () {",
+						"",
+						"        tabMediaLib.setCustomLayout(new sap.ui.layout.cssgrid.GridBoxLayout({ boxWidth: \"150px\" }));",
+						"        oTreeMediaLib.getBinding().mParameters = { arrayNames: ['subFolder'] };",
+						"",
+						"    },",
+						"    processReturnData: function (data) {",
+						"        modeltabMediaLib.setData({});",
+						"        modeltabMediaLib.refresh();",
+						"        AzureBlob.currentUser = data.User;",
+						"",
+						"        let tree = [];",
+						"        $.each(data.data, function (i, file) {",
+						"            let content = file.fileName.split('/')",
+						"            let folder = {};",
+						"            let lastfolder = {};",
+						"            let path = \"\";",
+						"            let edit = true;",
+						"",
+						"            $.each(content, function (k, name) {",
+						"",
+						"                path = path + name + \"/\";",
+						"                if (k === content.length - 1) {",
+						"                    file.filePath = file.fileName;",
+						"                    file.fileName = name;",
+						"                    file.edit = edit;",
+						"                    folder.files.push(file)",
+						"",
+						"                } else {",
+						"                    folder = AzureBlob.getObject(tree, path);",
+						"",
+						"                    if (folder === undefined) {",
+						"                        folder = {",
+						"                            folder: name,",
+						"                            path: path,",
+						"                            selected: false,",
+						"                            subFolder: [],",
+						"                            files: []",
+						"                        }",
+						"",
+						"                        if (k === 0) {",
+						"                            tree.push(folder)",
+						"                        } else {",
+						"                            lastfolder.subFolder.push(folder);",
+						"                        }",
+						"                        lastfolder = folder;",
+						"                    } else {",
+						"                        lastfolder = folder;",
+						"                    }",
+						"                }",
+						"            })",
+						"        })",
+						"        modeloTreeMediaLib.setData(tree);",
+						"",
+						"    },",
+						"    addNewFolder: function (folderName) {",
+						"        let old = oTreeMediaLib.getSelectedItem();",
+						"",
+						"        if (old) {",
+						"            AzureBlob.currentFolder.subFolder.push({",
+						"                folder: folderName,",
+						"                path: AzureBlob.currentFolder.path + folderName + \"/\",",
+						"                selected: true,",
+						"                subFolder: [],",
+						"                files: []",
+						"            })",
+						"        } else {",
+						"            AzureBlob.currentFolder.folder =  folderName;",
+						"            AzureBlob.currentFolder.path =  folderName + \"/\";",
+						"            modeloTreeMediaLib.oData.push(AzureBlob.currentFolder)",
+						"        }",
+						"",
+						"        modeloTreeMediaLib.refresh();",
+						"        oTreeMediaLib.expand(oTreeMediaLib.indexOfItem(old))",
+						"",
+						"        oTreeMediaLib.fireSelectionChange();",
+						"    },",
+						"",
+						"    mediaUploadFunction: function (oEvent) {",
+						"        $.each(oEvent.target.files, function (i, file) {",
+						"            try {",
+						"                var fileReader = new FileReader();",
+						"",
+						"                fileReader.onload = function (event) {",
+						"",
+						"                    data = {",
+						"                        \"name\": file.name,",
+						"                        \"type\": file.type,",
+						"                        \"folder\": AzureBlob.currentFolder.path,",
+						"                        \"base64\": event.target.result",
+						"                    }",
+						"",
+						"                    document.getElementById(\"mediaFileUploader\").value = '';",
+						"",
+						"                    apiUpload({ data: data });",
+						"                };",
+						"",
+						"                fileReader.readAsDataURL(file);",
+						"            } catch (e) {",
+						"                try { } catch (e) { }",
+						"            }",
+						"        });",
+						"    },",
+						"",
+						"",
+						"    getObject: function (theObject, path) {",
+						"",
+						"        var result = undefined;",
+						"        if (theObject instanceof Array) {",
+						"            for (var i = 0; i < theObject.length; i++) {",
+						"                result = AzureBlob.getObject(theObject[i], path);",
+						"                if (result) {",
+						"                    break;",
+						"                }",
+						"            }",
+						"        }",
+						"        else {",
+						"            for (var prop in theObject) {",
+						"                if (prop == 'path') {",
+						"                    if (theObject[prop] == path) {",
+						"                        return theObject;",
+						"                    }",
+						"                }",
+						"                if ((theObject[prop] instanceof Object || theObject[prop] instanceof Array) && prop !== 'files') {",
+						"                    result = AzureBlob.getObject(theObject[prop], path);",
+						"                    if (result) {",
+						"                        break;",
+						"                    }",
+						"                }",
+						"            }",
+						"        }",
+						"        return result;",
+						"    }",
+						"",
+						"",
+						"}",
+						"",
+						"mediaUploadFunction = AzureBlob.mediaUploadFunction;",
+						"AzureBlob.init();"
+					],
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "be0d7c4e-d854-42b5-97ca-63dc5e014b65",
+					"fieldName": "Get",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "B174DA30-536B-ED11-9F60-000D3ABA46BE",
+					"restOperation": "195F3FFF-1EB3-4B15-8E82-4D26206ADD6B",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "AzureBlob.processReturnData(xhr.responseJSON)",
+							"script": "AzureBlob.processReturnData(xhr.responseJSON)",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "f58c4ed0-171c-49a8-ec80-d25989a17e6f",
+					"fieldName": "Delete",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "B174DA30-536B-ED11-9F60-000D3ABA46BE",
+					"restOperation": "6C973E30-ABDE-414A-F492-E05639AEFFDA",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": [
+								"==OBJECT STRING==",
+								"",
+								"sap.m.MessageToast.show(xhr.responseJSON.msg, {",
+								"    my: \"center center\",",
+								"    at: \"center center\",",
+								"});",
+								"",
+								"",
+								"var data = modeltabMediaLib.oData.splice(modeltabMediaLib.oData.findIndex(element => element.url === xhr.responseJSON.file), 1)",
+								"modeltabMediaLib.refresh();",
+								""
+							],
+							"language": "javascript",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxError",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": [
+								"==OBJECT STRING==",
+								"sap.m.MessageToast.show(xhr.responseJSON.msg, {",
+								"    duration: 5000,                  // default",
+								"    my: \"center center\",",
+								"    at: \"center center\",",
+								"",
+								"});"
+							],
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "f63d53c1-120d-4c89-989f-b67de5d1066d",
+					"fieldName": "Upload",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "B174DA30-536B-ED11-9F60-000D3ABA46BE",
+					"restOperation": "51529214-06F1-4AD0-9DB8-95330F906621",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": [
+								"==OBJECT STRING==",
+								"sap.m.MessageToast.show(xhr.responseJSON.msg, {",
+								"    duration: 5000,                  // default",
+								"    my: \"center center\",",
+								"    at: \"center center\",",
+								"",
+								"});",
+								"",
+								"AzureBlob.currentFolder.files.push(xhr.responseJSON.file)",
+								"modeloTreeMediaLib.refresh();",
+								"modeltabMediaLib.refresh();",
+								""
+							],
+							"language": "javascript",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxError",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": [
+								"==OBJECT STRING==",
+								"sap.m.MessageToast.show(xhr.responseJSON.msg, {",
+								"    duration: 5000,                  // default",
+								"    my: \"center center\",",
+								"    at: \"center center\",",
+								"",
+								"});"
+							],
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.11.25.1338",
+	"application": "azureblob",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "1.96CDN",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": [
+		"==OBJECT STRING==",
+		".imgFeedback {",
+		"    max-width: 100%;",
+		"    max-height: 100%;",
+		"}",
+		"",
+		"",
+		".nepNavigationTileMedia .sapMTitle {",
+		"     width: 100%;",
+		"    text-align: center;",
+		"}",
+		"",
+		".nepNavigationTileMedia .sapMPanelContent {",
+		"    padding: 1rem 0.5rem 0.5rem 0.5rem;",
+		"}"
+	],
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"apis": [
+		{
+			"id": "B174DA30-536B-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob",
+			"ver": "22.11.25.147"
+		}
+	],
+	"package": "A83ED26F-446B-ED11-9F60-000D3ABA46BE"
+}

@@ -1,0 +1,122 @@
+{
+	"id": "A83ED26F-446B-ED11-9F60-000D3ABA46BE",
+	"createdAt": "2022-11-23T15:35:28.396Z",
+	"createdBy": "carlos.pires@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-AzureBlob",
+		"testServers": [],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"com.neptune-software.devt.azureblob\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"Azure Blob\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "com.neptune-software.devt.azureblob",
+	"description": "Azure Blob",
+	"ver": "22.11.23.1548",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "A76A1954-036C-ED11-9F60-000D3ABA46BE",
+			"application": "azureblob",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "B174DA30-536B-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "7F7B8550-466B-ED11-9F60-000D3ABA46BE",
+			"name": "Upload",
+			"description": null
+		},
+		{
+			"id": "78C3C464-466B-ED11-9F60-000D3ABA46BE",
+			"name": "List",
+			"description": null
+		},
+		{
+			"id": "7CC3C464-466B-ED11-9F60-000D3ABA46BE",
+			"name": "Delete",
+			"description": null
+		},
+		{
+			"id": "9892E8D9-476B-ED11-9F60-000D3ABA46BE",
+			"name": "PrepareUpload",
+			"description": null
+		},
+		{
+			"id": "165D29E7-476B-ED11-9F60-000D3ABA46BE",
+			"name": "PrepareList",
+			"description": null
+		},
+		{
+			"id": "D0C0B8F4-476B-ED11-9F60-000D3ABA46BE",
+			"name": "PrepareDeletion",
+			"description": null
+		},
+		{
+			"id": "42D141DC-4E6B-ED11-9F60-000D3ABA46BE",
+			"name": "AllowedFileTypes",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "910F112A-466B-ED11-9F60-000D3ABA46BE",
+			"name": "AzureBlob",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": []
+}
