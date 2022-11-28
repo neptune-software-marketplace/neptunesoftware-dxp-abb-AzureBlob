@@ -9,7 +9,7 @@
 	},
 	"name": "com.neptune-software.devt.azureblob",
 	"description": "Azure Blob",
-	"ver": "22.11.25.1411",
+	"ver": "22.11.28.1113",
 	"enableCICD": true,
 	"apps": [
 		{
