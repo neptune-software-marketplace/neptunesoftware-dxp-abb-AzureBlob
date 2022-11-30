@@ -18,7 +18,7 @@ try {
 
 } catch (e) {
     log.error(e)
-    esult.statusCode = 500;
+    result.statusCode = 500;
     result.data = {
         msg: e
     }

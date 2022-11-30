@@ -13,7 +13,7 @@
 	"entitySets": [],
 	"apis": [],
 	"name": "PrepareList",
-	"ver": "22.11.25.1720",
+	"ver": "22.11.30.114",
 	"description": null,
 	"content": "file:///content.script",
 	"useAsGlobalScript": false,

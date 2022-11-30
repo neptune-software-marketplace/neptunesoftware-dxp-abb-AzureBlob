@@ -13,7 +13,7 @@
 	"entitySets": [],
 	"apis": [],
 	"name": "PrepareDeletion",
-	"ver": "22.11.25.1417",
+	"ver": "22.11.30.1232",
 	"description": null,
 	"content": "file:///content.script",
 	"useAsGlobalScript": false,
